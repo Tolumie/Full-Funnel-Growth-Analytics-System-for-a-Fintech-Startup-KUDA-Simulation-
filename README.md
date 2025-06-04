@@ -1,9 +1,11 @@
 
-# 🚀 **Project Title: Full-Funnel Growth Analytics System for a Fintech Startup (KUDA Simulation)**
+# 🚀 **Project Title: Full-Funnel Growth Analytics/Intelligence System for Kuda (KUDA Simulation)**
 
 ## 🎯 **Project Objective:**
 
-To simulate the role of a Data Analyst at Kuda by building an end-to-end analytics pipeline that tracks **user behavior from marketing → CRM → product → retention**, while calculating **business metrics** (Churn, CAC, LTV, MoM/YoY Growth), and running **A/B testing** for insights—**all visualized in dashboards**.
+This project simulates a real-world data analyst role at **Kuda**, a digital-only bank, by building a **full-funnel analytics pipeline**. The system tracks the **entire user journey from marketing to retention, integrates data ingestion, transformation, analysis, and dashboarding ** , calculates key business metrics (e.g., **Churn, CAC, LTV, MoM/YoY Growth**), and simulates **A/B testing** for product/CRM strategies to support the Growth, CRM, and Product teams.
+
+The end goal is to provide a **dashboard and reporting suite** that empowers executive teams to make data-driven decisions—**all while showcasing the real challenges fintechs face in aligning growth with product performance**.
 
 ---
 
