@@ -1,5 +1,5 @@
 
-# 🚀 **Project Title: Full-Funnel Growth Analytics/Intelligence System for Kuda (KUDA Simulation)**
+# 🚀 **Project Title: Kuda Full-Funnel Growth Analytics/Intelligence System (KUDA Simulation)**
 
 ## 🎯 **Project Objective:**
 
@@ -26,7 +26,7 @@ The end goal is to provide a **dashboard and reporting suite** that empowers exe
 
 ```
 Marketing Sources → CRM (HubSpot) → App Events (Amplitude) 
-→ SQL Database → Retention & Metrics Analysis (Python, SQL) 
+→ SQL Database (Snowflake/PostgreSQL) → Retention & Metrics Analysis (Python, SQL) 
 → A/B Testing → Dashboard Visualization (Tableau/Power BI)
 ```
 
@@ -79,14 +79,14 @@ Use Python to simulate:
 
 ### **PHASE 2: Load to SQL & Integrate**
 
-* Load data into PostgreSQL or SQLite
-* Create joins: users × events × transactions × campaigns
+* Load data into **Snowflake** (Kuda stack) or **PostgreSQL** (for simulation)
+* Create SQL views and joins: users × events × transactions × campaigns
 * Write SQL scripts to:
 
   * Track **signup → activation → retention**
   * Link **campaign → CRM user → LTV**
 
-👉 Tools: `psycopg2` or `sqlite3`, SQLAlchemy
+👉 Tools: `Snowflake Connector`, `SQLAlchemy`, `psycopg2`
 
 ---
 
@@ -99,7 +99,7 @@ Using Pandas and SQL:
 * **MoM Growth**, **YoY Growth**
 * **Campaign ROI**
 
-👉 Tools: `pandas`, `numpy`, `matplotlib`, `seaborn`
+👉 Tools: `pandas`, `numpy`, `matplotlib`, `seaborn`, SQL (Snowflake)
 
 ---
 
@@ -112,7 +112,7 @@ Using Pandas and SQL:
   * Conversion rates
   * Retention curves
 
-👉 Tools: Python + SQL → `Plotly`, `matplotlib`
+👉 Tools: Python + SQL → `Plotly`, `matplotlib`, `Snowflake` queries
 
 ---
 
@@ -124,7 +124,7 @@ Simulate:
 * Control group doesn’t
 * Analyze click-through, conversion, and retention over 7 days
 
-👉 Tools: `scipy.stats`, `statsmodels`
+👉 Tools: `scipy.stats`, `statsmodels`, `pandas`, SQL
 
 ---
 
@@ -138,34 +138,42 @@ Simulate:
   * Campaign ROI
   * Funnel conversion
 
-👉 Tools: Power BI or Tableau
+👉 Tools: Power BI, Tableau, Snowflake connector
 
 ---
 
 ### **PHASE 7: Reporting & Documentation**
 
 * Executive summary (PDF/Markdown)
-* Dashboard walkthrough
+* Dashboard walkthrough (screenshots and live link)
 * SQL + Python codebase with comments
-* Data dictionary + project guide
+* Data dictionary + project walkthrough
+
+👉 Tools: Markdown, Google Docs, Canva (for styling)
 
 ---
 
 ## 📈 Bonus: Advanced Touches (If You Want to Shine Extra Bright)
 
-* Add **email open rates and push notifications** as events
-* Integrate **Segment** via Python to simulate event flow
-* Use **Airflow or Prefect** to schedule analysis pipelines
-* Deploy a dashboard with **Streamlit** or **Dash**
+* Add **email open rates and push notifications** as new event types
+* Integrate **Segment** or simulate similar data flows
+* Use **Airflow or Prefect** to schedule data ingestion and transformation
+* Build a lightweight dashboard with **Streamlit** or **Dash**
+* Add an **anomaly detection script** for user drop-off or spend spikes
+
+👉 Tools: Segment (mocked), Streamlit, Airflow, Prophet
 
 ---
 
 ## ✨ Project Deliverables
 
-* 📊 A beautiful dashboard showing retention, LTV, CAC, growth
-* 🧠 Jupyter notebooks with clean, reproducible analytics
-* 💡 Business insights written as if for C-suite at Kuda
-* 🔐 Compliance and privacy notes
-* 🧪 A/B test report with statistical validation
+* 📊 A beautiful, insight-packed dashboard (Power BI or Tableau)
+* 🧠 Jupyter notebooks showing clean, modular, reproducible analytics
+* 💡 Insights written for stakeholders (PMs, CMOs, C-Suite)
+* 🧪 A/B testing report with actionable recommendations
+* 🔐 Compliance notes (GDPR/data minimization simulation)
+* ⚙️ SQL views for each major metric pipeline
+* 📄 Final PDF report and README for walkthrough
+
 
   
