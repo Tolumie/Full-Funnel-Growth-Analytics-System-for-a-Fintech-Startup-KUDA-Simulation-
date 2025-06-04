@@ -9,16 +9,65 @@ The end goal is to provide a **dashboard and reporting suite** that empowers exe
 
 ---
 
+## 🎯 Business Goals & Stakeholder Questions
+
+### 👥 **Assumed Stakeholders**
+
+* **Growth Marketing Team** — focused on user acquisition & CAC
+* **Product Managers** — tracking activation & retention funnels
+* **CRM Team** — driving re-engagement via emails & push
+* **Executives (CEO/COO/CFO)** — care about ROI, LTV, and growth
+
+---
+
+### 🧠 **Core Business Objectives & Analytical Questions**
+
+#### 📌 **Retention & Churn**
+
+* What percentage of users return on **Day 1**, **Day 7**, and **Day 30**?
+* Where are users **dropping off** in the onboarding funnel?
+* What are our **monthly** and **quarterly churn rates**?
+
+#### 📌 **Customer Acquisition Cost vs Lifetime Value (CAC vs LTV)**
+
+* What’s the **CAC per campaign/platform**?
+* What’s the **average LTV** by UTM source, signup cohort, or platform?
+* Are we **overpaying** to acquire **low-LTV users**?
+
+#### 📌 **Funnel Conversion Rates**
+
+* What percentage of users move from:
+
+  * **Signup → Activation?**
+  * **Activation → First Transaction?**
+  * **First Transaction → Retention?**
+
+#### 📌 **CRM Campaign ROI**
+
+* What’s the **retention uplift** from email/push campaigns?
+* Does **A/B testing** show a statistically significant impact?
+* What’s the **ROI** on our CRM automation tools?
+
+#### 📌 **Growth Metrics**
+
+* What’s our **Month-on-Month (MoM)** and **Year-on-Year (YoY)** user growth?
+* How are **campaign spend and signups trending** over time?
+
+
+---
+
 ## 🛠️ **Project Stack:**
 
-| Layer              | Tools/Libraries                                            |
-| ------------------ | ---------------------------------------------------------- |
-| Data Simulation    | Python, Faker, Numpy, Pandas                               |
-| Storage            | PostgreSQL (or SQLite), Snowflake (mock), Google Sheets    |
-| CRM + Events Layer | Simulated HubSpot, Segment, Mixpanel/Amplitude CSV exports |
-| Analysis           | Pandas, SQL, Scipy, Statsmodels                            |
-| Dashboards         | Power BI / Tableau / Dash                                  |
-| Reporting          | Jupyter Notebooks, PDF summaries                           |
+| **Layer**           | **Tools/Libraries**                                                                 |
+| ------------------- | ----------------------------------------------------------------------------------- |
+| **Data Simulation** | `Python`, `Faker`, `Numpy`, `Pandas`                                                |
+| **Storage**         | `PostgreSQL` / `SQLite`, **Snowflake** *(mocked)*, **Google Sheets** *(CSV sync)*   |
+| **CRM + Events**    | Simulated `HubSpot`, `Segment`, `Amplitude` or `Mixpanel` *(CSV or API simulation)* |
+| **Analysis**        | `Pandas`, `SQL`, `Scipy`, `Statsmodels`, `Matplotlib`, `Seaborn`, `Plotly`          |
+| **Dashboards**      | `Power BI`, `Tableau`, `Dash`, *(+ Streamlit for web dashboards — bonus)*           |
+| **Orchestration**   | `Airflow`, `Prefect` *(bonus)*                                                      |
+| **Reporting**       | `Jupyter Notebooks`, `Markdown`, `PDF summaries`                                    |
+
 
 ---
 
