@@ -78,22 +78,48 @@ The end goal is to provide a **dashboard and reporting suite** that empowers exe
 
 ---
 
-## 🔧 **Key Fintech Data Terms—Remixed With Swagger**
+## 🔧 **Kuda Fintech Glossary – The Whole Swagger-Filled Table**
 
-| 💬 **Term** | 🔍 **What It Means** | 📌 **Why It Matters at Kuda** |
-| :---------------------------------- | :--------------------------------------------------------- | :-------------------------------------------------------------------------------------------- |
-| **Neobank** | A digital-only bank, no branches, just app. | Kuda *is* the bank in your pocket. Lower overheads = better for the user. |
-| **Smart Budgeting** | Using AI + rules to help users manage money. | Helps Kuda stand out—this is where behavior data shines. |
-| **Instant Credit** | Quick loans based on app activity (no paperwork). | You’ll analyze who’s eligible, predict default risk, etc. |
-| **LTV (Lifetime Value)** | Total ₦/\$ a customer brings in before churning. | Used to prioritize high-value segments. |
-| **CAC (Customer Acquisition Cost)** | How much it costs to get a customer. | You’ll compare CAC vs. LTV to ensure Kuda’s not bleeding money. |
-| **Churn Rate** | % of users who ghost the app or stop transacting. | You fight churn like a bouncer at the fintech door. |
-| **Conversion Rate (CR%)** | % of people who take action (e.g., sign up after seeing ad). | Optimize the journey from “interested” to “customer.” |
-| **Customer Segmentation** | Using ML to group users by behavior or value. | Powers smarter targeting, boosts retention, reduces CAC waste. No more “one-size-fits-none.” |
-| **BI Tools (Looker, Power BI)** | Tools for charts, dashboards, story-telling with data. | Show execs the numbers. Let the dashboards do the mic-drop. |
-| **SQL** | Language to query databases. | Your sword and shield. Non-negotiable. |
-| **A/B Testing** | Test 2 versions of a feature to see which performs better. | Data > opinion. You back every decision with proof. |
-| **Customer DNA Matrix** | A strategic quadrant model (e.g., LTV vs. Engagement) to categorize and visualize customer segments. | Provides a high-level, actionable framework for executive decision-making and tailored strategies. |
+| 💬 **Term**                            | 🔍 **What It Means**                                                                   | 📌 **Why It Matters at Kuda**                                             |
+| -------------------------------------- | -------------------------------------------------------------------------------------- | ------------------------------------------------------------------------- |
+| **Neobank**                            | A digital-only bank, no branches, just app.                                            | Kuda *is* the bank in your pocket. Lower overheads = better for the user. |
+| **Smart Budgeting**                    | Using AI + rules to help users manage money.                                           | Helps Kuda stand out—this is where behavior data shines.                  |
+| **Instant Credit**                     | Quick loans based on app activity (no paperwork).                                      | You’ll analyze who’s eligible, predict default risk, etc.                 |
+| **LTV (Lifetime Value)**               | Total ₦/\$ a customer brings in before churning.                                       | Used to prioritize high-value segments.                                   |
+| **CAC (Customer Acquisition Cost)**    | How much it costs to get a customer.                                                   | You’ll compare CAC vs. LTV to ensure Kuda’s not bleeding money.           |
+| **Churn Rate**                         | % of users who ghost the app or stop transacting.                                      | You fight churn like a bouncer at the fintech door.                       |
+| **Conversion Rate (CR%)**              | % of people who take action (e.g., sign up after seeing ad).                           | Optimize the journey from “interested” to “customer.”                     |
+| **Customer Segmentation**              | Using ML to group users by behavior or value.                                          | Powers smarter targeting, boosts retention, reduces CAC waste.            |
+| **BI Tools (Looker, Power BI)**        | Tools for charts, dashboards, story-telling with data.                                 | Show execs the numbers. Let the dashboards do the mic-drop.               |
+| **SQL**                                | Language to query databases.                                                           | Your sword and shield. Non-negotiable.                                    |
+| **A/B Testing**                        | Test 2 versions of a feature to see which performs better.                             | Data > opinion. You back every decision with proof.                       |
+| **Customer DNA Matrix**                | A strategic quadrant model (e.g., LTV vs. Engagement) to categorize customer segments. | Offers executive-level visibility into segment value and engagement.      |
+| **Full-Funnel Analytics Pipeline**     | Tracking every customer step from awareness to loyalty.                                | Enables product, growth, and CRM teams to act with precision.             |
+| **Data Ingestion**                     | Collecting raw data from all sources.                                                  | Step one for building reliable analytics.                                 |
+| **Data Transformation**                | Cleaning and structuring data for analysis.                                            | Makes raw data usable and insightful.                                     |
+| **Data Analysis**                      | Finding patterns, correlations, and answers in the data.                               | Supports decisions for all teams, from product to finance.                |
+| **Dashboarding**                       | Visual representation of insights for stakeholders.                                    | Makes data accessible, especially for execs.                              |
+| **A/B Testing Simulation**             | Mimicking live split tests using historical data.                                      | Helps test strategies without real-time risks.                            |
+| **Dynamic Customer Segmentation**      | Live updating customer groups based on behavior.                                       | Keeps marketing and product targeting relevant and sharp.                 |
+| **Growth Marketing Team**              | Team focused on user acquisition and retention.                                        | Leverages insights to run lean, high-ROI campaigns.                       |
+| **Product Managers**                   | Own the app features and user experience.                                              | Use insights to build better products and user flows.                     |
+| **CRM Team**                           | Manages user communication (email, in-app).                                            | Personalizes timing, tone, and content to drive engagement.               |
+| **Executives (CEO/COO/CFO)**           | Top-level leadership.                                                                  | Use dashboards and summaries to steer company growth.                     |
+| **Retention**                          | % of users who keep using the app over time.                                           | Core growth metric—shows product stickiness.                              |
+| **CAC vs. LTV**                        | Comparison of customer acquisition cost vs. value.                                     | Ensures profitable growth.                                                |
+| **ROI (Return on Investment)**         | Profit made from investments like marketing or features.                               | Tells whether efforts are actually paying off.                            |
+| **CRM (Customer Relationship Mgmt)**   | Systems for managing user interactions.                                                | Builds long-term loyalty through personalized engagement.                 |
+| **Funnel Conversion Rates**            | Measures drop-off and success at every user journey stage.                             | Highlights where to improve onboarding and usage flows.                   |
+| **CRM Campaign ROI**                   | Profitability of CRM campaigns.                                                        | Validates targeting and messaging strategies.                             |
+| **MoM (Month-on-Month) Growth**        | Short-term metric showing progress every month.                                        | Tracks whether Kuda is moving forward quickly.                            |
+| **YoY (Year-on-Year) Growth**          | Long-term metric comparing year to year.                                               | Shows seasonal trends and lasting impact.                                 |
+| **Personalization**                    | Tailoring services/messages per user behavior.                                         | Boosts engagement and conversion by making users feel seen.               |
+| **RFM (Recency, Frequency, Monetary)** | Segmentation based on recent activity, frequency, and spend.                           | Helps find loyal whales vs. disengaged users.                             |
+| **Engagement**                         | How often and deeply users interact with the app.                                      | High engagement = high retention and lifetime value.                      |
+| **Attribution**                        | Which channels drive user actions.                                                     | Ensures money is spent on effective acquisition paths.                    |
+| **Predictive Modeling**                | Using past data to forecast user behavior.                                             | Enables proactive decisions—e.g., retention nudges, credit offers.        |
+| **Anomaly Detection Script**           | Script that flags weird, sudden data behavior.                                         | Helps react quickly to fraud, bugs, or ops issues.                        |
+
 
 ---
 
