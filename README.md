@@ -84,14 +84,14 @@ The end goal is to provide a **dashboard and reporting suite** that empowers exe
 | -------------------------------------- | -------------------------------------------------------------------------------------- | ------------------------------------------------------------------------- |
 | **Neobank**                            | A digital-only bank, no branches, just app.                                            | Kuda *is* the bank in your pocket. Lower overheads = better for the user. |
 | **Smart Budgeting**                    | Using AI + rules to help users manage money.                                           | Helps Kuda stand out—this is where behavior data shines.                  |
-| **Instant Credit**                     | Quick loans based on app activity (no paperwork).                                      | You’ll analyze who’s eligible, predict default risk, etc.                 |
+| **Instant Credit**                     | Quick loans based on app activity (no paperwork).                                      | Analyze who’s eligible, predict default risk, etc.                 |
 | **LTV (Lifetime Value)**               | Total ₦/\$ a customer brings in before churning.                                       | Used to prioritize high-value segments.                                   |
-| **CAC (Customer Acquisition Cost)**    | How much it costs to get a customer.                                                   | You’ll compare CAC vs. LTV to ensure Kuda’s not bleeding money.           |
-| **Churn Rate**                         | % of users who ghost the app or stop transacting.                                      | You fight churn like a bouncer at the fintech door.                       |
+| **CAC (Customer Acquisition Cost)**    | How much it costs to get a customer.                                                   | Compare CAC vs. LTV to ensure Kuda’s not bleeding money.           |
+| **Churn Rate**                         | % of users who ghost the app or stop transacting.                                      | Helps fight churn like a bouncer at the fintech door.                       |
 | **Conversion Rate (CR%)**              | % of people who take action (e.g., sign up after seeing ad).                           | Optimize the journey from “interested” to “customer.”                     |
 | **Customer Segmentation**              | Using ML to group users by behavior or value.                                          | Powers smarter targeting, boosts retention, reduces CAC waste.            |
 | **BI Tools (Looker, Power BI)**        | Tools for charts, dashboards, story-telling with data.                                 | Show execs the numbers. Let the dashboards do the mic-drop.               |
-| **SQL**                                | Language to query databases.                                                           | Your sword and shield. Non-negotiable.                                    |
+| **SQL**                                | Language to query databases.                                                           | The sword and shield. Non-negotiable.                                    |
 | **A/B Testing**                        | Test 2 versions of a feature to see which performs better.                             | Data > opinion. You back every decision with proof.                       |
 | **Customer DNA Matrix**                | A strategic quadrant model (e.g., LTV vs. Engagement) to categorize customer segments. | Offers executive-level visibility into segment value and engagement.      |
 | **Full-Funnel Analytics Pipeline**     | Tracking every customer step from awareness to loyalty.                                | Enables product, growth, and CRM teams to act with precision.             |
@@ -119,6 +119,8 @@ The end goal is to provide a **dashboard and reporting suite** that empowers exe
 | **Attribution**                        | Which channels drive user actions.                                                     | Ensures money is spent on effective acquisition paths.                    |
 | **Predictive Modeling**                | Using past data to forecast user behavior.                                             | Enables proactive decisions—e.g., retention nudges, credit offers.        |
 | **Anomaly Detection Script**           | Script that flags weird, sudden data behavior.                                         | Helps react quickly to fraud, bugs, or ops issues.                        |
+| **KPI (Key Performance Indicator)**    | A quantifiable measure of success for a specific objective.                            | Keeps everyone—from interns to the CEO—aligned and accountable.           |
+| **Data Literacy**                      | Understanding how to read, interpret, and communicate data insights.                   | Empowers teams across Kuda to make data-informed decisions.               |
 
 
 ---
