@@ -4,7 +4,7 @@
 
 ## 🎯 **Project Objective:**
 
-This project simulates a real-world data analyst role at **Kuda**, a digital-only bank, by building a **full-funnel analytics pipeline**. The system tracks the **entire user journey from marketing to retention, integrates data ingestion, transformation, analysis, and dashboarding**, calculates key business metrics (e.g., **Churn, CAC, LTV, MoM/YoY Growth**), and simulates **A/B testing** for product/CRM strategies to support the Growth, CRM, and Product teams.
+This project designed and built a **full-funnel analytics pipeline** that mirrors how fintech teams drive **product growth**, **customer segmentation**, and **retention**. The system simulates real-world data for Kuda — a digital-only bank — and tracks the **entire user lifecycle** from **marketing clicks to churn**. The system tracks the **entire user journey from marketing to retention, integrates data ingestion, transformation, analysis, and dashboarding**, calculates key business metrics (e.g., **Churn, CAC, LTV, MoM/YoY Growth**), and also includes **A/B testing simulations** to support decision-making across **Product**, **CRM**, and **Growth** teams — all tuned for smarter strategy and sharper execution.
 
 The end goal is to provide a **dashboard and reporting suite** that empowers executive teams to make data-driven decisions—**all while showcasing the real challenges fintechs face in aligning growth with product performance**, and most importantly, enabling **personalized strategies through a dynamic customer segmentation framework, designed to maximize user value and minimize churn.**
 
